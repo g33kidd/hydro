@@ -1,0 +1,15 @@
+[package]
+name = "hydro"
+version = "0.1.0"
+authors = ["Joshua Kidd <kidd.josh.343@gmail.com>"]
+description = "Lightning fast Game Engine using Rust."
+
+[[bin]]
+name = "Hydro"
+path = "src/main.rs"
+
+[dependencies]
+piston_window = "0.69.0"
+piston_meta = "0.29.1"
+pistoncore-sdl2_window = "0.43.0"
+conrod = "0.54.0"
